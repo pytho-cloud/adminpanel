@@ -1,0 +1,9 @@
+.containers{
+  display: flex;  
+  background: red;   
+}
+
+.menu{
+  flex: 1;
+  font-size: 20px;
+}

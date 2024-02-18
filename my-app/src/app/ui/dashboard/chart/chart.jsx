@@ -51,12 +51,12 @@ const data = [
 function Chart() {
 
   return (
-    <div className='bg-[#77bdbd7b] w-full  h-full container p-2 ' >
-      <h1 className='m-3'>
-        Chart
+    <div className='bg-[#77bdbd7b] flex flex-col w-full h-full   p-9 ' >
+        <h1 className='m-6 p-1 font-bold '>
+       Chart
       </h1>
-
-      <ResponsiveContainer width="100%" height="90%">
+      <ResponsiveContainer width="100%" height="100%">
+     
         <LineChart
           width={500}
           height={400}

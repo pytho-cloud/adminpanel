@@ -22,7 +22,7 @@ function Dashboard() {
      <div className="tables flex">
       <Transcations/>
     </div>
-    <div className="tables flex w-full  ">
+    <div className="tables flex w-full   ">
       <Chart/>
     </div>
      </div>

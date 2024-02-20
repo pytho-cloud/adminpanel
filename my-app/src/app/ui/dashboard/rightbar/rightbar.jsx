@@ -3,7 +3,7 @@ import {Card, CardHeader, CardBody, CardFooter,Divider,Button} from "@nextui-org
 import Link from 'next/link';
 function  Rightbar() {
   return (
-       <Card className="max-w-[320px] bg-[#69acac8c] p-2  text-align  rounded-md">
+       <Card className="max-w-[320px] bg-[#182237] p-2  text-align  rounded-md">
        <CardHeader className="flex gap-5">
       
        <div className="flex flex-col p-1 items-center justify-center">

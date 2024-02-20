@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function  Cards() {
   return (
-       <Card className="max-w-[300px] bg-[#69acac8c]  rounded-md p-2">
+       <Card className="max-w-[300px] bg-[#182237]  rounded-md p-2">
        <CardHeader className="flex ">
       
        <div className="flex flex-col">

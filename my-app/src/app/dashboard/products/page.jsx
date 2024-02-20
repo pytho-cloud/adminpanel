@@ -1,3 +1,4 @@
+import Products from '@/app/ui/dashboard/products/products'
 import React from 'react'
 
 function  ProductPage() {
@@ -6,6 +7,7 @@ function  ProductPage() {
       <h1>
        This is Product Page
       </h1>
+      <Products/>
     </div>
   )
 }

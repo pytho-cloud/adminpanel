@@ -3,7 +3,7 @@ import React from 'react'
 
 function  Transcations() {
   return (
-    <div className='container bg-[#69acac8c] p-8 rounded-md mt-3'>
+    <div className='container bg-[#182237] p-8 rounded-lg  mt-3'>
        <h1 className=' p-4 font-bold'>
               Transcations
        </h1>
@@ -27,8 +27,8 @@ function  Transcations() {
               </thead>
               <tbody>
                      <tr>
-                            <td className='flex items-center gap-3  p-4'>
-                                   <Image src="/img.png" width={40} height={40}/>
+                            <td className='flex items-center gap-3  p-4 rounded-lg'>
+                                   <Image src="/img.png" width={40} height={40} className='rounded-full'/>
                                           Inverse
                             </td>
                             <td className='p-4'>
@@ -47,7 +47,7 @@ function  Transcations() {
 
                      <tr>
                             <td className='flex items-center gap-3  p-4'>
-                                   <Image src="/img.png" width={40} height={40}/>
+                                   <Image src="/img.png" width={40} height={40} className='rounded-full'/>
                                           Raj
                             </td>
                             <td className='p-4'>
@@ -65,7 +65,7 @@ function  Transcations() {
                      </tr>
                      <tr>
                             <td className='flex items-center gap-3  p-4'>
-                                   <Image src="/img.png" width={40} height={40}/>
+                                   <Image src="/img.png" width={40} height={40} className='rounded-full'/>
                                           Sahil
                             </td>
                             <td className='p-4'>

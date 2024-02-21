@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import Sidebar from '../ui/dashboard/sidebar/sidebar'
 import Navbar from '../ui/dashboard/navbar/navbar'
 import  "../ui/dashboard/dashboard.module.css"
@@ -6,7 +6,8 @@ import Footer from '../ui/footer/footer'
 
 function layout({children}) {
   return (
-    <div className="flex  containers w-full sticky top-40 ">
+    <div className="flex  containers w-full sticky top-40 " >
+      <Suspense fallback={<loadinng/>}>
       <div className="flex-initial w-64 p-10 bg-[#182237] items-center justify-ends">
        <Sidebar/>
       </div>
@@ -15,6 +16,7 @@ function layout({children}) {
        {children}
        <Footer/>
       </div>
+      </Suspense>
     </div>
   )
 }

@@ -51,7 +51,7 @@ const data = [
 function Chart() {
 
   return (
-    <div className='bg-[#77bdbd7b] flex flex-col w-full h-full   p-9 ' >
+    <div className='bg-[#182237] flex flex-col w-full h-full   p-9 ' >
         <h1 className='m-6 p-1 font-bold '>
        Chart
       </h1>

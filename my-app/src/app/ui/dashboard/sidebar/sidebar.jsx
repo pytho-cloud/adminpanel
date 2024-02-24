@@ -33,12 +33,12 @@ function  Sidebar() {
       list :[
         {
           "title":"Reports",
-          'path' : '/analytics',
+          'path' : 'dashboard/analytics',
           "icons": <FaPage4/>
         },
         {
           "title":"Revenue",
-          'path' : '/dashboard/users/',
+          'path' : '/dashboard/revenue',
           "icons": <FaRedRiver/>
         },
         {
